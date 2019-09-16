@@ -1,3 +1,13 @@
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.vocabulary.VCARD;
+import proyectoweb.parseObras;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,12 +21,21 @@
 public class ProyectoWeb
 {
 
+    static String personURI = "http://somewhere/JohnSmith";
+    static String fullName = "John Smith";
+    
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args)
+    public static void main(String[] args) throws FileNotFoundException, IOException
     {
-        // TODO code application logic here
+        //
+        //Model model = ModelFactory.createDefaultModel();
+        //Resource johnSmith =model.createResource(personURI);
+       parseObras po = new parseObras();
+        
+        
     }
+    
     
 }
