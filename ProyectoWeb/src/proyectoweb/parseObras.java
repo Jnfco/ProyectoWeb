@@ -78,8 +78,16 @@ public class parseObras
                  Resource obra =modelo.createResource(ns+parsedList[3]);
                  Property region =modelo.createProperty(voc,"Region");
                  Property nombre = modelo.createProperty(voc,"Nombre");
+                 Property servicio = modelo.createProperty(voc,"Servicio");
+                 Property codigoBip = modelo.createProperty(voc,"Codigo_BIP");
+                 Property etapa = modelo.createProperty(voc,"Etapa");
+                 Property item = modelo.createProperty(voc,"Item");
                  obra.addProperty(nombre,parsedList[4]);
                  obra.addProperty(region,parsedList[0]);
+                 obra.addProperty(servicio,parsedList[1]);
+                 obra.addProperty(codigoBip,parsedList[3]);
+                 obra.addProperty(etapa,parsedList[5]);
+                 obra.addProperty(item,parsedList[2]);
                     
                 }
                 //System.out.println(linea);
@@ -105,10 +113,10 @@ public class parseObras
     public void writeModel() throws FileNotFoundException
 
     {
-        /*
+        
         File salida = new File("archivo.ttl");
         FileOutputStream fos = new FileOutputStream(salida);
-        modelo.write(fos,"TURTLE");*/
+        modelo.write(fos,"TURTLE");
         modelo.write(System.out,"TURTLE");
     }
 
