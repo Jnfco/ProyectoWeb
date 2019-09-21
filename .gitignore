@@ -3,3 +3,6 @@
 ProyectoWeb/nbproject/private/private.properties
 
 ProyectoWeb/nbproject/private/private.xml
+
+/ProyectoWeb/build/
+/ProyectoWeb/dist/
