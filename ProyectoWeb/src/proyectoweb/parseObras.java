@@ -107,7 +107,7 @@ public class parseObras
                     System.out.println(parsedList[0]);
                     if(parsedList[0].equals("Tarapacá"))
                     {
-                        System.out.println("ALO");
+                        
                         numeroRegion="I";
                     }
                     if(parsedList[0].equals("Antofagasta"))

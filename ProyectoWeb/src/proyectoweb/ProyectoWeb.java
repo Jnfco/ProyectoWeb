@@ -6,6 +6,7 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.VCARD;
+import proyectoweb.ParseAntenas;
 import proyectoweb.parseObras;
 
 /*
@@ -32,7 +33,8 @@ public class ProyectoWeb
         //
         //Model model = ModelFactory.createDefaultModel();
         //Resource johnSmith =model.createResource(personURI);
-       parseObras po = new parseObras();
+       //parseObras po = new parseObras();
+        ParseAntenas pa= new ParseAntenas();
         
         
     }
