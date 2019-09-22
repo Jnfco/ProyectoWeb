@@ -1,0 +1,159 @@
+<http://websemantica.cl/Proyecto/Regiones/Metropolitana>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Metropolitana" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Metropolitana" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "RM" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Magallanes>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Magallanes" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Magallanes" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "XII" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Valparaíso>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Valparaíso" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Valparaíso" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "V" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Los_Lagos>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Los Lagos" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Los Lagos" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "X" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Araucanía>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Araucanía" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Araucanía" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "IX" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Libertador_B_Ohiggins>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Libertador B Ohiggins" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Libertador B Ohiggins" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "VI" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/No_Regionalizable>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de No Regionalizable" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "No Regionalizable" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                " " ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Atacama>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Atacama" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Atacama" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "III" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Aisén>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Aisén" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Aisén" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Bio_Bio>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Bio Bio" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Bio Bio" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "VIII" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Los_Ríos>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Los Ríos" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Los Ríos" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "XIV" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Maule>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Maule" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Maule" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "VII" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Arica_y_Parinacota>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Arica y Parinacota" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Arica y Parinacota" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "XV" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Coquimbo>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Coquimbo" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Coquimbo" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "IV" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Antofagasta>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Antofagasta" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Antofagasta" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "II" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
+
+<http://websemantica.cl/Proyecto/Regiones/Tarapacá>
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
+                "Region de Tarapacá" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
+                "Tarapacá" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/Numero_Region>
+                "I" ;
+        <http://websemantica.cl/Proyecto/Regiones/vocabulario/País>
+                "http://dbpedia.org/resource/Chile" .
