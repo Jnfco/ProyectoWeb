@@ -30,11 +30,9 @@ public class ProyectoWeb
      */
     public static void main(String[] args) throws FileNotFoundException, IOException
     {
-        //
-        //Model model = ModelFactory.createDefaultModel();
-        //Resource johnSmith =model.createResource(personURI);
-       //parseObras po = new parseObras();
+       
         ParseAntenas pa= new ParseAntenas();
+        parseObras po= new parseObras();
         
         
     }

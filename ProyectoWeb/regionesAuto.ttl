@@ -1,4 +1,6 @@
 <http://websemantica.cl/Proyecto/Regiones/Metropolitana>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Metropolitana" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -9,6 +11,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Magallanes>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Magallanes" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -19,6 +23,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Valparaíso>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Valparaíso" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -29,6 +35,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Los_Lagos>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Los Lagos" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -39,6 +47,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Araucanía>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Araucanía" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -49,6 +59,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Libertador_B_Ohiggins>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Libertador B Ohiggins" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -59,6 +71,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/No_Regionalizable>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de No Regionalizable" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -69,6 +83,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Atacama>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Atacama" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -79,6 +95,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Aisén>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Aisén" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -89,6 +107,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Bio_Bio>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Bio Bio" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -99,6 +119,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Los_Ríos>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Los Ríos" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -109,6 +131,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Maule>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Maule" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -119,6 +143,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Arica_y_Parinacota>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Arica y Parinacota" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -129,6 +155,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Coquimbo>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Coquimbo" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -139,6 +167,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Antofagasta>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Antofagasta" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>
@@ -149,6 +179,8 @@
                 "http://dbpedia.org/resource/Chile" .
 
 <http://websemantica.cl/Proyecto/Regiones/Tarapacá>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#/type>
+                "Region" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre>
                 "Region de Tarapacá" ;
         <http://websemantica.cl/Proyecto/Regiones/vocabulario/Nombre_Region>

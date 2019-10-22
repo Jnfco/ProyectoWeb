@@ -65,6 +65,7 @@ public class parseObras
             String voc = "http://websemantica.cl/Proyecto/Obras/vocabulario/";
             String voc2 = "http://websemantica.cl/Proyecto/Regiones/vocabulario/";
             String db = "http://dbpedia.org/resource/";
+            String vocT ="http://www.w3.org/1999/02/22-rdf-syntax-ns#/";
             BufferedReader csvReader = new BufferedReader(new InputStreamReader(new FileInputStream(file), "ISO-8859-1"));
             while ((linea = csvReader.readLine()) != null)
             {
@@ -88,6 +89,9 @@ public class parseObras
                     Property etapa = modelo.createProperty(voc, "Etapa");
                     Property item = modelo.createProperty(voc, "Item");
                     Property monto = modelo.createProperty(voc, "Monto");
+                    Property type=modelo.createProperty(vocT,"type");
+                    Property type2=modeloRegiones.createProperty(vocT,"type");
+                    obra.addProperty(type,"Obra");
                     obra.addProperty(nombre, parsedList[4]);
                     //obra.addProperty(region,parsedList[0]);
                     obra.addProperty(servicio, parsedList[1]);
@@ -104,7 +108,6 @@ public class parseObras
                     
                     String numeroRegion="";
                     String nombree=parsedList[0];
-                    System.out.println(parsedList[0]);
                     if(parsedList[0].equals("Tarapacá"))
                     {
                         
@@ -170,10 +173,12 @@ public class parseObras
                     {
                         numeroRegion="RM";
                     }
+                    Region.addProperty(type2, "Region");
                     Region.addProperty(nombreR, "Region de " + parsedList[0]);
                     Region.addProperty(nombreRegion, parsedList[0]);
                     Region.addProperty(pais, db + "Chile");
                     Region.addProperty(numRegion,numeroRegion);
+                    
                    
                     
 
@@ -182,7 +187,7 @@ public class parseObras
 
             }
 
-            System.out.println("Regiones");
+            
 
         } else
         {
@@ -201,10 +206,10 @@ public class parseObras
         FileOutputStream fos = new FileOutputStream(salidaObras);
         FileOutputStream fos2 = new FileOutputStream(salidaRegiones);
         modelo.write(fos, "TURTLE");
-        modelo.write(System.out, "TURTLE");
+        //modelo.write(System.out, "TURTLE");
 
         modeloRegiones.write(fos2, "TURTLE");
-        modeloRegiones.write(System.out, "TURTLE");
+        //modeloRegiones.write(System.out, "TURTLE");
 
     }
 

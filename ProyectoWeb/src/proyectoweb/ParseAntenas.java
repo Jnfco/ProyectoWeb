@@ -52,6 +52,7 @@ public class ParseAntenas
         String reg = "http://websemantica.cl/Proyecto/Regiones/"; 
         String vocReg = "http://websemantica.cl/Proyectos/Regiones/vocabulario/"; 
         String dbpedia = "http://dbpedia.org/resource/"; 
+        String vocT ="http://www.w3.org/1999/02/22-rdf-syntax-ns#/";
              
         if(file.isFile()) 
         { 
@@ -92,7 +93,8 @@ public class ParseAntenas
                     Property lat_segundos = model.createProperty(voc, "Lat_S");; 
                     Property lon_grados = model.createProperty(voc, "Long_G");; 
                     Property lon_minutos = model.createProperty(voc, "Long_M");; 
-                    Property lon_segundos = model.createProperty(voc, "Long_S");; 
+                    Property lon_segundos = model.createProperty(voc, "Long_S");;
+                    Property type=model.createProperty(vocT,"type");
                     model.add(antena,tieneEmpresa,empresa);
                     model.add(antena,servicio,listaAntenas[1].replace(" ","_"));
                     model.add(antena,tipo_servicio,listaAntenas[2].replace(" ","_"));
@@ -100,6 +102,7 @@ public class ParseAntenas
                     model.add(antena,tipoElemento,listaAntenas[4].replace(" ","_"));
                     model.add(antena,direccion,listaAntenas[5].replace(" ","_"));
                     model.add(antena,comuna,listaAntenas[6].replace(" ","_"));
+                    model.add(antena,type,"Antena");
                     String nomCorRegion;
                    
                     String numero=listaAntenas[7];
@@ -183,7 +186,7 @@ public class ParseAntenas
         File salidaAntenas = new File("antenasAuto.ttl"); 
         FileOutputStream fos = new FileOutputStream(salidaAntenas); 
         model.write(fos, "TURTLE"); 
-        model.write(System.out, "TURTLE"); 
+        //model.write(System.out, "TURTLE"); 
          
     } 
     public static String generateCode() {
