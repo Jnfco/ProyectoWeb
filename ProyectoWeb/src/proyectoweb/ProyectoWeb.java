@@ -7,6 +7,7 @@ import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.VCARD;
 import proyectoweb.ParseAntenas;
+import proyectoweb.ParseCustomers;
 import proyectoweb.parseObras;
 
 /*
@@ -31,8 +32,10 @@ public class ProyectoWeb
     public static void main(String[] args) throws FileNotFoundException, IOException
     {
        
-        ParseAntenas pa= new ParseAntenas();
-        parseObras po= new parseObras();
+        
+       // ParseAntenas pa= new ParseAntenas();
+        //parseObras po= new parseObras();
+        ParseCustomers pc = new ParseCustomers();
         
         
     }
