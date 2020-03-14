@@ -6,9 +6,10 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.VCARD;
-import proyectoweb.ParseAntenas;
+import proyectoweb.ParseCustHist;
 import proyectoweb.ParseCustomers;
-import proyectoweb.parseObras;
+import proyectoweb.ParseOrders;
+import proyectoweb.ParseProducts;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -23,9 +24,7 @@ import proyectoweb.parseObras;
 public class ProyectoWeb
 {
 
-    static String personURI = "http://somewhere/JohnSmith";
-    static String fullName = "John Smith";
-    
+  
     /**
      * @param args the command line arguments
      */
@@ -36,6 +35,9 @@ public class ProyectoWeb
        // ParseAntenas pa= new ParseAntenas();
         //parseObras po= new parseObras();
         ParseCustomers pc = new ParseCustomers();
+        ParseOrders po = new ParseOrders();
+        ParseProducts pp = new ParseProducts();
+        ParseCustHist pch = new ParseCustHist();
         
         
     }
